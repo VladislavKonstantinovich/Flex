@@ -1,0 +1,27 @@
+body {
+    min-width: 1920px;
+    min-height: 1080px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3 , auto) ;
+    grid-gap: 5px;
+
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    height: 90%;
+    background-color: #fff;
+    box-shadow: 0 0 1em #979797;
+}
+
+.object {
+    width: 100px;
+    height: 50px;
+    background-color: lightgreen;
+    box-shadow: 0px 0px 10px  #979797;
+    margin: 10px;
+}
+
